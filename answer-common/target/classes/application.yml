@@ -1,0 +1,19 @@
+#server:
+#  port: 80
+spring:
+  application:
+    name: spring-cloud-common-80
+  datasource:
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/answer?useSSL=true&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+#  mail:
+#    host: smtp.qq.com
+#    username: 3302763596@qq.com
+#    password: qzceptfixrnnchjh
+#    default-encoding: UTF-8
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:80

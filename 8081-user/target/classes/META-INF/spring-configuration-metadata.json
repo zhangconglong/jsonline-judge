@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "bloom.filter",
+      "type": "com.example.filter.RedisBloomFilter",
+      "sourceType": "com.example.filter.RedisBloomFilter"
+    }
+  ],
+  "properties": [
+    {
+      "name": "system-params.ip-address",
+      "type": "java.lang.String",
+      "description": "Description for system-params.ip-address."
+    }
+  ],
+  "hints": []
+}

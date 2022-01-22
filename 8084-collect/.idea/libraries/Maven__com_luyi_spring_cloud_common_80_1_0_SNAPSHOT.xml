@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.luyi:spring-cloud-common-80:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Environment/apache-maven-3.8.1/maven-repo/com/luyi/spring-cloud-common-80/1.0-SNAPSHOT/spring-cloud-common-80-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../../Environment/apache-maven-3.8.1/maven-repo/com/luyi/spring-cloud-common-80/1.0-SNAPSHOT/spring-cloud-common-80-1.0-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Environment/apache-maven-3.8.1/maven-repo/com/luyi/spring-cloud-common-80/1.0-SNAPSHOT/spring-cloud-common-80-1.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

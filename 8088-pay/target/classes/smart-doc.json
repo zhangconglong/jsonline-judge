@@ -1,0 +1,12 @@
+{
+  "serverUrl": "http://localhost:8088",
+  "outPath": "src/main/resources/static/doc",
+  "isStrict": false,
+  "allInOne": true,
+  "createDebugPage": false,
+  "packageFilters": "com.luyi.chatroom.controller.*",
+  "style":"xt256",
+  "projectName": "answer-pay-8089",
+  "showAuthor":false,
+  "allInOneDocFileName":"index.html"
+}

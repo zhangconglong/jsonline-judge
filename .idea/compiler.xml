@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="3072" />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="7000-gateway" />
+        <module name="9095-onlinejudge" />
+        <module name="answer-common" />
+        <module name="8084-collect" />
+        <module name="answer-config-3344" />
+        <module name="8088-pay" />
+        <module name="answer-search-8086" />
+        <module name="8082-issue" />
+        <module name="answer-jwt-9091" />
+        <module name="8083-answer" />
+        <module name="8081-user" />
+        <module name="answer-security-8085" />
+        <module name="9090-chat" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="answer-chat-8087" target="8" />
+      <module name="spring-cloud-collects-server-8084" target="8" />
+      <module name="spring-cloud-talk-server-8085" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="7000-gateway" options="-parameters" />
+      <module name="8081-user" options="-parameters" />
+      <module name="8082-issue" options="-parameters" />
+      <module name="8083-answer" options="-parameters" />
+      <module name="8084-collect" options="-parameters" />
+      <module name="8088-pay" options="-parameters" />
+      <module name="9090-chat" options="-parameters" />
+      <module name="9095-onlinejudge" options="-parameters" />
+      <module name="answer-chat-8087" options="-parameters" />
+      <module name="answer-common" options="-parameters" />
+      <module name="answer-config-3344" options="-parameters" />
+      <module name="answer-jwt-9091" options="-parameters" />
+      <module name="answer-search-8086" options="-parameters" />
+      <module name="answer-security-8085" options="-parameters" />
+    </option>
+  </component>
+</project>

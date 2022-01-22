@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-user-8081/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-api-8081/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-api-8082/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-user-8082/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-collect-server-8084/pom.xml" />
+        <option value="$PROJECT_DIR$/anwser-securtiy-8085/pom.xml" />
+        <option value="$PROJECT_DIR$/answer-search-8086/pom.xml" />
+        <option value="$PROJECT_DIR$/answer-security-8085/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/answer-chat-8087/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-user-server-8082/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

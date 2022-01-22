@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.821 s <<< FAILURE! - in com.example.Test
+jwt(com.example.Test)  Time elapsed: 0.711 s  <<< ERROR!
+java.lang.IllegalArgumentException: Base64-encoded key bytes may only be specified for HMAC signatures.  If using RSA or Elliptic Curve, use the signWith(SignatureAlgorithm, Key) method instead.
+	at com.example.Test.jwt(Test.java:35)
+
