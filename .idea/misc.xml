@@ -12,12 +12,21 @@
         <option value="$PROJECT_DIR$/spring-cloud-collect-server-8084/pom.xml" />
         <option value="$PROJECT_DIR$/anwser-securtiy-8085/pom.xml" />
         <option value="$PROJECT_DIR$/answer-search-8086/pom.xml" />
-        <option value="$PROJECT_DIR$/answer-security-8085/pom.xml" />
+        <option value="$PROJECT_DIR$/dis-seckill-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/dis-seckill-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/7001-config/pom.xml" />
+        <option value="$PROJECT_DIR$/9093-mq/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/8085-seckill/pom.xml" />
+        <option value="$PROJECT_DIR$/8086-seckill-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/8088-seckill-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/9092-mq/pom.xml" />
         <option value="$PROJECT_DIR$/answer-chat-8087/pom.xml" />
+        <option value="$PROJECT_DIR$/answer-config-3344/pom.xml" />
+        <option value="$PROJECT_DIR$/answer-jwt-9091/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-user-server-8082/pom.xml" />
       </set>
     </option>

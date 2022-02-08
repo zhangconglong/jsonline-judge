@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="7001-config" />
+        <module name="9092-mq" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="7001-config" target="8" />
+      <module name="9092-mq" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="7001-config" options="-parameters" />
+      <module name="9092-mq" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -3,7 +3,6 @@ package com.example.dao.service;
 import com.example.common.config.Result;
 import com.example.common.pojo.Issue;
 import com.example.dao.mapper.IssueMapper;
-import com.example.utils.HtmlParseUtil;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -16,7 +15,6 @@ public class IssueAdminService {
     List<Issue> issueList;
 //    LambdaQueryWrapper<Issue> wrapper = Wrappers.lambdaQuery();
 
-    HtmlParseUtil htmlParse;
 
     private final String url = "http://api.h-camel.com/api?mod=interview&ctr=issues&act=";
 

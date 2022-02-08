@@ -9,14 +9,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="7000-gateway" />
+        <module name="9093-mq" />
         <module name="9095-onlinejudge" />
         <module name="answer-common" />
         <module name="8084-collect" />
-        <module name="answer-config-3344" />
         <module name="8088-pay" />
         <module name="answer-search-8086" />
         <module name="8082-issue" />
-        <module name="answer-jwt-9091" />
+        <module name="7001-config" />
         <module name="8083-answer" />
         <module name="8081-user" />
         <module name="answer-security-8085" />
@@ -24,7 +24,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="8085-seckill" target="8" />
+      <module name="8086-seckill-mq" target="8" />
+      <module name="8087-seckill-goods" target="1.5" />
+      <module name="8088-seckill-cache" target="8" />
       <module name="answer-chat-8087" target="8" />
+      <module name="answer-config-3344" target="8" />
+      <module name="answer-jwt-9091" target="8" />
       <module name="spring-cloud-collects-server-8084" target="8" />
       <module name="spring-cloud-talk-server-8085" target="8" />
     </bytecodeTargetLevel>
@@ -32,12 +38,17 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="7000-gateway" options="-parameters" />
+      <module name="7001-config" options="-parameters" />
       <module name="8081-user" options="-parameters" />
       <module name="8082-issue" options="-parameters" />
       <module name="8083-answer" options="-parameters" />
       <module name="8084-collect" options="-parameters" />
+      <module name="8085-seckill" options="-parameters" />
+      <module name="8086-seckill-mq" options="-parameters" />
       <module name="8088-pay" options="-parameters" />
+      <module name="8088-seckill-cache" options="-parameters" />
       <module name="9090-chat" options="-parameters" />
+      <module name="9093-mq" options="-parameters" />
       <module name="9095-onlinejudge" options="-parameters" />
       <module name="answer-chat-8087" options="-parameters" />
       <module name="answer-common" options="-parameters" />

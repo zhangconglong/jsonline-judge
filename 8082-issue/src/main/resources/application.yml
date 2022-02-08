@@ -1,12 +1,22 @@
-server:
-  port: 8082
 spring:
-  application:
-    name: spring-cloud-issue-server-8082
   datasource:
     username: root
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/answer?useSSL=true&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+
+  cloud:
+    nacos:
+      discovery:
+        port: 8848
+
+#  data:
+#    elasticsearch:
+#      cluster-nodes: 127.0.0.1:9300
+#  elasticsearch:
+#    rest:
+#      password:
+
+
 #mybatis:
 #  mapper-locations:

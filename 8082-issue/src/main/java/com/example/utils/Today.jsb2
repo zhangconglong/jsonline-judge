@@ -1,0 +1,246 @@
+{
+  "error": 0,
+  "reason": "",
+  "result": {
+    "one": [
+      {
+        "title": "页面导入样式时，使用link和@import有什么区别？",
+        "id": 1,
+        "body": "",
+        "label": "html",
+        "status": 1,
+        "time": 1,
+        "relation": "",
+        "from": "",
+        "author": "haizhilin2013",
+        "remark": "",
+        "order": 0,
+        "issuesId": 1
+      },
+      {
+        "title": "圣杯布局和双飞翼布局的理解和区别，并用代码实现",
+        "id": 2,
+        "body": "",
+        "label": "css",
+        "status": 1,
+        "time": 1,
+        "relation": "",
+        "from": "",
+        "author": "haizhilin2013",
+        "remark": "",
+        "order": 0,
+        "issuesId": 2
+      },
+      {
+        "title": "用递归算法实现，数组长度为5且元素的随机数在2-32间不重复的值",
+        "id": 3,
+        "body": "### 这一题是起源题\r\n描述：\r\n1. 这是一道大题目，把考点拆成了4个小项；需要侯选人用递归算法实现（限制15行代码以内实现；限制时间10分钟内完成）：\r\na) 生成一个长度为5的空数组arr。\r\nb) 生成一个（2－32）之间的随机整数rand。\r\nc) 把随机数rand插入到数组arr内，如果数组arr内已存在与rand相同的数字，则重新生成随机数rand并插入到arr内[需要使用递归实现，不能使用for/while等循环]\r\nd) 最终输出一个长度为5，且内容不重复的数组arr。",
+        "label": "js",
+        "status": 1,
+        "time": 1,
+        "relation": "",
+        "from": "",
+        "author": "haizhilin2013",
+        "remark": "",
+        "order": 0,
+        "issuesId": 3
+      }
+    ],
+    "two": [
+      {
+        "title": "html的元素有哪些（包含H5）？",
+        "id": 4,
+        "body": "区分出行内元素、块级元素、空元素并在后面简要标注下作用。如：\r\n**行内元素：**\r\nbr - 换行\r\n...\r\n\r\n----\r\n先不要百度，看看自己能写出多少。",
+        "label": "html",
+        "status": 1,
+        "time": 2,
+        "relation": "",
+        "from": "",
+        "author": "haizhilin2013",
+        "remark": "",
+        "order": 0,
+        "issuesId": 4
+      },
+      {
+        "title": "CSS3有哪些新增的特性？",
+        "id": 5,
+        "body": "简述下CSS3有哪些新增的特性？如：\r\n圆角：border-radius: 3px",
+        "label": "css",
+        "status": 1,
+        "time": 2,
+        "relation": "",
+        "from": "",
+        "author": "haizhilin2013",
+        "remark": "",
+        "order": 0,
+        "issuesId": 5
+      },
+      {
+        "title": "写一个方法去掉字符串中的空格",
+        "id": 6,
+        "body": "写一个方法去掉字符串中的空格，要求传入不同的类型分别能去掉前、后、前后、中间的空格",
+        "label": "js",
+        "status": 1,
+        "time": 2,
+        "relation": "",
+        "from": "",
+        "author": "haizhilin2013",
+        "remark": "",
+        "order": 0,
+        "issuesId": 6
+      }
+    ],
+    "today": [
+      {
+        "title": "请说说css中的:only-of-type选择器的作用是什么？",
+        "id": 5082,
+        "body": "",
+        "from": "",
+        "label": "css",
+        "status": 1,
+        "issuesId": 4964,
+        "releaseTime": "1644093240000",
+        "comment_count": null
+      }
+    ],
+    "beforetoday": [
+      {
+        "title": "请说说css中的:first-line选择器的作用是什么？",
+        "id": 5080,
+        "body": "",
+        "label": "css",
+        "status": 1,
+        "time": 1025,
+        "relation": "",
+        "from": "",
+        "author": "haizhilin2013",
+        "remark": "",
+        "order": 0,
+        "issuesId": 4962
+      }
+    ],
+    "yestoday": [
+      {
+        "title": "请说说css中的:only-child选择器的作用是什么？",
+        "id": 5081,
+        "body": "",
+        "label": "css",
+        "status": 1,
+        "time": 1026,
+        "relation": "",
+        "from": "",
+        "author": "haizhilin2013",
+        "remark": "",
+        "order": 0,
+        "issuesId": 4963
+      }
+    ],
+    "tomorrow": [
+
+    ],
+    "time": 1027,
+    "week": [
+      {
+        "title": "请说说css中的:only-of-type选择器的作用是什么？",
+        "id": 5082,
+        "body": "",
+        "label": "css",
+        "status": 1,
+        "time": 1027,
+        "relation": "",
+        "from": "",
+        "author": "haizhilin2013",
+        "remark": "",
+        "order": 0,
+        "issuesId": 4964
+      },
+      {
+        "title": "请说说css中的:only-child选择器的作用是什么？",
+        "id": 5081,
+        "body": "",
+        "label": "css",
+        "status": 1,
+        "time": 1026,
+        "relation": "",
+        "from": "",
+        "author": "haizhilin2013",
+        "remark": "",
+        "order": 0,
+        "issuesId": 4963
+      },
+      {
+        "title": "请说说css中的:first-line选择器的作用是什么？",
+        "id": 5080,
+        "body": "",
+        "label": "css",
+        "status": 1,
+        "time": 1025,
+        "relation": "",
+        "from": "",
+        "author": "haizhilin2013",
+        "remark": "",
+        "order": 0,
+        "issuesId": 4962
+      },
+      {
+        "title": "请说说css中的:future选择器的作用是什么？",
+        "id": 5079,
+        "body": "",
+        "label": "css",
+        "status": 1,
+        "time": 1024,
+        "relation": "",
+        "from": "",
+        "author": "haizhilin2013",
+        "remark": "",
+        "order": 0,
+        "issuesId": 4961
+      },
+      {
+        "title": "请说说css中的:past选择器的作用是什么？",
+        "id": 5078,
+        "body": "",
+        "label": "css",
+        "status": 1,
+        "time": 1023,
+        "relation": "",
+        "from": "",
+        "author": "haizhilin2013",
+        "remark": "",
+        "order": 0,
+        "issuesId": 4960
+      },
+      {
+        "title": "请说说css中的:current选择器的作用是什么？",
+        "id": 5077,
+        "body": "",
+        "label": "css",
+        "status": 1,
+        "time": 1022,
+        "relation": "",
+        "from": "",
+        "author": "haizhilin2013",
+        "remark": "",
+        "order": 0,
+        "issuesId": 4959
+      },
+      {
+        "title": "请说说css中的:blank选择器的作用是什么？",
+        "id": 5076,
+        "body": "",
+        "label": "css",
+        "status": 1,
+        "time": 1021,
+        "relation": "",
+        "from": "",
+        "author": "haizhilin2013",
+        "remark": "",
+        "order": 0,
+        "issuesId": 4958
+      }
+    ],
+    "dToday": "2022.02.06",
+    "dYestoday": "2022.02.05",
+    "dBeforetoday": "2022.02.04"
+  }
+}

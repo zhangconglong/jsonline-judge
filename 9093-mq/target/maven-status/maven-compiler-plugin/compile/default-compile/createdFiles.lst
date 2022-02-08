@@ -1,0 +1,4 @@
+com\luyi\controller\IssueController.class
+com\luyi\MqApplication.class
+com\luyi\config\BeansConfig.class
+com\luyi\mq\config\MQConfig.class

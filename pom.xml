@@ -10,19 +10,21 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
+        <module>7000-gateway</module>
+        <module>7001-config</module>
         <module>answer-common</module>
-        <module>answer-config-3344</module>
         <module>8081-user</module>
         <module>8082-issue</module>
         <module>8083-answer</module>
-        <module>7000-gateway</module>
         <module>8084-collect</module>
+        <!--秒杀模块-->
+        <module>8088-pay</module>
         <module>answer-security-8085</module>
         <module>answer-search-8086</module>
-        <module>8088-pay</module>
         <module>9090-chat</module>
         <module>answer-jwt-9091</module>
         <module>9095-onlinejudge</module>
+        <module>9092-mq</module>
         <!--        <module>spring-cloud-talk-server-8085</module>-->
     </modules>
 
@@ -67,14 +69,15 @@
         <log4j-version>1.2.17</log4j-version>
         <lombok-version>1.18.20</lombok-version>
         <mybatis-plus>3.4.3.1</mybatis-plus>
-        <shiro.version>1.5.2</shiro.version>
+<!--        <shiro.version>1.5.2</shiro.version>-->
         <spring-boot-starter-amqp>2.3.0.RELEASE</spring-boot-starter-amqp>
-        <!--tinylog-->
+        <!--tiny log-->
         <tinylog-impl>2.4.1</tinylog-impl>
         <!--微服务版本-->
         <feign-version>2.2.5.RELEASE</feign-version>
     </properties>
 
+    <!--只是声明，需要子项目自行引入-->
     <dependencyManagement>
         <dependencies>
             <!--springCloud的依赖-->
@@ -104,6 +107,18 @@
                 <version>2.3.3.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-config-server</artifactId>
+                <version>2.1.1.RELEASE</version>
+            </dependency>
+            <!--config-客户端-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-config</artifactId>
+                <version>3.1.0</version>
             </dependency>
 
             <!--springboot启动器-->

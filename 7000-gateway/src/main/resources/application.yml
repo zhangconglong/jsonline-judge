@@ -2,20 +2,24 @@ server:
   port: 7000
 spring:
   application:
-    name: spring-cloud-gateway-7000
+    name: 7000-gateway
+
   cloud:
     nacos:
       discovery:
-        server-addr: 127.0.0.1:8848 #注册中心地址
+        server-addr: 127.0.0.1:8848 # 注册中心地址
+
     gateway:
       discovery:
         locator:
-          enabled: true #让gateway可以发现nacos中的微服务
-      routes: #路由数组，满足什么条件就转到那个微服务
-        - id: issue #当前路由的唯一标识
-          uri: lb://spring-cloud-issue-server-8082 #lb表示从nacos中按照名称获取的微服务，并遵循负载均衡，
-          order: 1 #路由的优先级
-          predicates: #断言（条件判断，转发请求要满足条件）
-            - Path=/issue/** # 当请求路径满足一定的规则时，进行转发
-          filters: # 过滤器，在请求过程中对请求做一些手脚
+          enabled: true # 让gateway可以发现Nacos中的微服务
+
+      routes: #路由数组
+        # 路由一
+        - id: issue # 路由对象的ID
+          uri: lb://8082-issue # lb：指定微服务名，并负载均衡，
+          order: 1 # 路由的优先级
+          predicates: # 断言
+            - Path=/issue/** # 当请求路径包含issue，转发到8082
+          filters: # 过滤器
             - StripPrefix=1 #在转发之前去掉几层路径
