@@ -7,10 +7,11 @@
     <file url="file://$PROJECT_DIR$/7001-config/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/8081-user/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/8081-user/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/8082-issue/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/8082-issue/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/8082-issue-producer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/8082-issue-producer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/8083-answer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/8083-answer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/8083-issue-es-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/8084-collect/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/8084-collect/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/8088-pay/src/main/java" charset="UTF-8" />

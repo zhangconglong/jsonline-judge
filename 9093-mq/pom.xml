@@ -61,6 +61,7 @@
             <artifactId>answer-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
         <!--config-->
 <!--        <dependency>-->
 <!--            <groupId>org.springframework.cloud</groupId>-->

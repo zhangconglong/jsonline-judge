@@ -10,12 +10,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="7000-gateway" />
         <module name="9093-mq" />
+        <module name="8083-issue-es-consumer" />
         <module name="9095-onlinejudge" />
+        <module name="8082-issue-producer" />
         <module name="answer-common" />
         <module name="8084-collect" />
         <module name="8088-pay" />
         <module name="answer-search-8086" />
-        <module name="8082-issue" />
         <module name="7001-config" />
         <module name="8083-answer" />
         <module name="8081-user" />
@@ -40,8 +41,9 @@
       <module name="7000-gateway" options="-parameters" />
       <module name="7001-config" options="-parameters" />
       <module name="8081-user" options="-parameters" />
-      <module name="8082-issue" options="-parameters" />
+      <module name="8082-issue-producer" options="-parameters" />
       <module name="8083-answer" options="-parameters" />
+      <module name="8083-issue-es-consumer" options="-parameters" />
       <module name="8084-collect" options="-parameters" />
       <module name="8085-seckill" options="-parameters" />
       <module name="8086-seckill-mq" options="-parameters" />

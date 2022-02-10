@@ -15,7 +15,7 @@
         <option value="$PROJECT_DIR$/dis-seckill-mq/pom.xml" />
         <option value="$PROJECT_DIR$/dis-seckill-cache/pom.xml" />
         <option value="$PROJECT_DIR$/7001-config/pom.xml" />
-        <option value="$PROJECT_DIR$/9093-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/8082-issue-producer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
