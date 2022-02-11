@@ -21,12 +21,15 @@ import java.util.List;
  * time: 2022/2/6 20:01
  */
 public class CategoryHtmlParseUtil {
+
+    public static String category = "http://api.h-camel.com/api?mod=interview&ctr=issues&act=history";
+
     /**
      *  将JSON文件解析成java对象，并存到MYSQL中
      */
-    public List<Issue> categoryHtmlParseUtil(String url) {
+    public List<Issue> categoryHtmlParseUtil() {
         try{
-            URLConnection conn = new URL(url).openConnection() ;
+            URLConnection conn = new URL(category).openConnection() ;
             InputStream is = conn.getInputStream();
             BufferedReader br = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8));
             String text = br.readLine();
@@ -35,9 +38,10 @@ public class CategoryHtmlParseUtil {
             text = String.valueOf((new JSONObject(text)).get("result"));
             ObjectMapper objectMapper = new ObjectMapper();
 
-            //允许忽略JSON中的未知字段
-            objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+
+            objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, true);//允许忽略JSON中的未知字段
             List<Issue> issueList = objectMapper.readValue(text, new TypeReference<List<Issue>>() {});
+
             for (Issue issue : issueList) {
                 System.out.println(issue.getTitle());
             }

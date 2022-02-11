@@ -1,5 +1,6 @@
 package com.example.common.pojo;
 
+import com.alibaba.fastjson.annotation.JSONField;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotations.TableName;
@@ -18,22 +19,26 @@ import java.time.LocalDate;
 public class Issue {
 
     @TableId(type = IdType.AUTO)
+    @JSONField(name = "id")
     @JsonProperty("id")
     private Integer issueId;
     private String title;
     private String body;
     private String author;
     private String label;
+
+    @JSONField(serialize =false, deserialize=false)
+//    @JSONField(format = "yyyy-MM-dd HH:mm:ss")
     private LocalDate releaseTime;
-    private LocalDate timeStr;
 
     @JsonIgnoreProperties({"collectionCount", "category"})
+    @JSONField(serialize =false, deserialize=false)
     private Integer collectionCount;
+    @JSONField(serialize =false, deserialize=false)
     private String category;
 
   public Issue(Integer issueId, Integer collectionCount) {
     this.issueId = issueId;
     this.collectionCount = collectionCount;
   }
-
 }

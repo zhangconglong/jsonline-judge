@@ -1,5 +1,6 @@
 package com.example.mq.consumer;
 
+import com.example.mq.vo.MQMessage;
 import org.springframework.amqp.core.ExchangeTypes;
 import org.springframework.amqp.rabbit.annotation.Exchange;
 import org.springframework.amqp.rabbit.annotation.Queue;
@@ -35,7 +36,7 @@ public class MqConsumer {
             exchange = @Exchange(name = ISSUE_EXCHANGE, type = ExchangeTypes.DIRECT),
     key = {ROUTER_KEY}
     ))
-    public void receiveIssue() {//MQMessage message
+    public void receiveIssue(MQMessage message) {
 
         Logger.info("RabbitMQ收到消息: ");
 //        Logger.info("RabbitMQ收到消息: " + message);

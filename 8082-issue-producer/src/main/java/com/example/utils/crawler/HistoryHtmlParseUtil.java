@@ -16,29 +16,36 @@ import java.nio.charset.StandardCharsets;
 import java.util.List;
 
 /**
- * 从
+ * 历史题目接口
+ * author: luyi
+ * time: 2022/2/11 13:54
  */
 public class HistoryHtmlParseUtil {
+
+    public static String historyURL = "http://api.h-camel.com/api?mod=interview&ctr=issues&act=history";
+
     /**
      *  将JSON文件解析成java对象，并存到MYSQL中
      */
-    public List<Issue> historyHtmlParseUtil(String url) {
+    public List<Issue> historyHtmlParseUtil() {
         try {
-            URLConnection conn = new URL(url).openConnection() ;
+            URLConnection conn = new URL(historyURL).openConnection() ;
             InputStream is = conn.getInputStream();
             BufferedReader br = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8));
             String text = br.readLine();
             br.close();
 
             text = String.valueOf((new JSONObject(text)).get("result"));
+
+
             ObjectMapper objectMapper = new ObjectMapper();
             //允许忽略JSON中的未知字段
-            objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+            objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);//fixme:
+
             List<Issue> issueList = objectMapper.readValue(text, new TypeReference<List<Issue>>() {});
+
             for (Issue issue : issueList) {
-                System.out.println("=========");
                 System.out.println(issue.getTitle());
-                System.out.println("=========");
             }
             return issueList;
         } catch (IOException e) {
